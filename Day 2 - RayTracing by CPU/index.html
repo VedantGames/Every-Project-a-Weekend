@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RayTrasing</title>
+</head>
+<body style="background-color: rgb(15, 31, 31); padding: 0px; margin: 0px;">
+  <div style="display: flex; align-items: center; justify-content: center;">
+    <canvas id="canvas" width="1200" height="950" style=" background-color: white;">asdfasf</canvas>
+    <div style="height: 100vh; width: 100%; display: flex; flex-direction: column; align-items: center; color: white; font-family: Arial, Helvetica, sans-serif; background-color: rgb(4, 20, 52); border-radius: 20px;">
+      <div style="padding-top: 2rem;">
+        <h1>Scene</h1>
+        <p id="fps"></p>
+      </div>
+      <div style="height: 100%; width: 100%; margin-left: 1rem;">
+        <div id="list">
+          <h1>Objects</h1>
+          <div id="objList" style="margin-left: 1rem;"></div>
+        </div>
+        <div style="margin-top: 1rem;">
+          <h1>Lights</h1>
+          <div id="lightList" style="margin-left: 1rem;"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="sphere.js"></script>
+  <script src="light.js"></script>
+  <script src="scene.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
